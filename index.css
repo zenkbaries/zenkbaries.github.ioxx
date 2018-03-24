@@ -1,6 +1,5 @@
 body {
   display: flex;
-  flex-wrap: nowrap;
   width: 100%;
   background: #F5F5F5;
   color: #444;
@@ -13,28 +12,37 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
+header {
+
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #AAA;
+}
+
 .navigation {
+}
+
+#myNav {
+  /* margin: 10px; */
   padding: 10px;
   background-color: #888;
   width: 300px;
   border: 1px solid #000;
 }
 
-.navigation ul {
+#myNav ul {
   list-style: none;
 }
 
 .main {
-  background-color: #AAA;
-  margin: 0;
-  padding: 20px;
-  width: 100%;
+  /* display: block; */
 }
 
-/* .main header h1{
-  text-align: center;
-} */
-
-.main h1 {
-  text-align: center;
+.project {
+  font-size: 18px;
 }
